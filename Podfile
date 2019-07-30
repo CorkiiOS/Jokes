@@ -12,6 +12,9 @@ pod 'Kingfisher'
 pod 'Texture'
 pod 'R.swift'
 pod 'JXSegmentedView'
+pod 'RxSwift', '~> 4.5'
+pod 'RxCocoa', '~> 4.5'
+pod 'BmobSDK'
   target 'JokesTests' do
     inherit! :search_paths
     # Pods for testing

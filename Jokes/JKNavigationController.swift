@@ -13,6 +13,7 @@ class JKNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationBar.barTintColor = UIColor.white
+        navigationBar.isTranslucent = false
     }
     
     

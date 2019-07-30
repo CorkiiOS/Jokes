@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.8.2)
+  - BmobSDK (2.3.1)
   - ESTabBarController-swift (2.7)
   - JXSegmentedView (0.0.17)
   - Kingfisher (4.10.1)
@@ -27,6 +28,9 @@ PODS:
     - R.swift.Library (~> 5.0.0)
   - R.swift.Library (5.0.1)
   - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
   - Texture (2.8.1):
     - Texture/AssetsLibrary (= 2.8.1)
     - Texture/Core (= 2.8.1)
@@ -49,16 +53,20 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
+  - BmobSDK
   - ESTabBarController-swift
   - JXSegmentedView
   - Kingfisher
   - Moya (~> 12.0.1)
   - R.swift
+  - RxCocoa (~> 4.5)
+  - RxSwift (~> 4.5)
   - Texture
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - BmobSDK
     - ESTabBarController-swift
     - JXSegmentedView
     - Kingfisher
@@ -69,10 +77,13 @@ SPEC REPOS:
     - R.swift
     - R.swift.Library
     - Result
+    - RxCocoa
+    - RxSwift
     - Texture
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BmobSDK: e0f9e4b451233a80af63a8ae4f2d239474bf567b
   ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
   JXSegmentedView: 841922f0b5c9c85b74b634896028ed6b9b00a212
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
@@ -83,8 +94,10 @@ SPEC CHECKSUMS:
   R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
   R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
 
-PODFILE CHECKSUM: 1cf5f33795e38f0f0b205a4b35b5c50034d715b1
+PODFILE CHECKSUM: 6fe073a67faafb0248b80629c118d42d7b25aca3
 
 COCOAPODS: 1.5.3

@@ -13,16 +13,6 @@ class JKTabBarController: ESTabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tabBar.barTintColor = UIColor.white
-        tabBar.backgroundImage = whiteImage()
-    }
-    
-    private func whiteImage() -> UIImage {
-        guard let context: CGContext =  UIGraphicsGetCurrentContext() else { return UIImage() }
-        UIGraphicsBeginImageContext(tabBar.bounds.size)
-        context.setFillColor(UIColor.white.cgColor);
-        context.fill(tabBar.bounds);
-        guard let image = UIGraphicsGetImageFromCurrentImageContext() else { return UIImage() }
-        UIGraphicsEndImageContext()
-        return image
+        tabBar.backgroundImage = whiteColorImage(size: tabBar.bounds.size)
     }
 }
